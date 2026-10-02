@@ -1,352 +1,354 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Header & Balance Section */
 .balance-section {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .balance-section h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .balance-card {
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .balance-label {
-    font-size: 12px;
-    color: #999;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 .balance-amount {
-    font-size: 48px;
-    font-weight: bold;
-    color: #2196F3;
+  font-size: 48px;
+  font-weight: bold;
+  color: #2196f3;
 }
 
 /* Main Content */
 .main-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* Form Section */
 .form-section {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .form-section h2 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .form-group label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #333;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
 }
 
 .form-group input,
 .form-group select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 14px;
-    font-family: inherit;
-    transition: border-color 0.3s;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s;
 }
 
 .form-group input:focus,
 .form-group select:focus {
-    outline: none;
-    border-color: #2196F3;
-    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
 }
 
 .btn-submit {
-    width: 100%;
-    padding: 14px;
-    background-color: #2196F3;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 10px;
+  width: 100%;
+  padding: 14px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
 }
 
 .btn-submit:hover {
-    background-color: #1976D2;
+  background-color: #1976d2;
 }
 
 .btn-submit:active {
-    transform: scale(0.98);
+  transform: scale(0.98);
 }
 
 /* Bottom Section - Transactions and Chart */
 .bottom-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 /* Transactions Section */
 .transactions-section {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .transactions-section h2 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .transactions-list {
-    max-height: 400px;
-    overflow-y: auto;
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 .empty-state {
-    text-align: center;
-    color: #999;
-    padding: 40px 20px;
-    font-size: 14px;
+  text-align: center;
+  color: #999;
+  padding: 40px 20px;
+  font-size: 14px;
 }
 
 .transaction-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    border-bottom: 1px solid #f0f0f0;
-    transition: background-color 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s;
 }
 
 .transaction-item:hover {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .transaction-item:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .transaction-details {
-    flex: 1;
+  flex: 1;
 }
 
 .transaction-name {
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
 }
 
 .transaction-amount {
-    font-size: 16px;
-    font-weight: bold;
-    color: #2196F3;
-    margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2196f3;
+  margin-bottom: 5px;
 }
 
 .transaction-category {
-    display: inline-block;
-    font-size: 12px;
-    padding: 4px 8px;
-    border-radius: 4px;
-    color: white;
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
 }
 
 .category-food {
-    background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
 .category-transport {
-    background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .category-fun {
-    background-color: #FF9800;
+  background-color: #ff9800;
 }
 
 .btn-delete {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 600;
-    transition: background-color 0.3s;
-    margin-left: 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  margin-left: 15px;
 }
 
 .btn-delete:hover {
-    background-color: #d32f2f;
+  background-color: #d32f2f;
 }
 
 /* Chart Section */
 .chart-section {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .chart-section h2 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .chart-container {
-    position: relative;
-    height: 300px;
-    width: 100%;
+  position: relative;
+  height: 300px;
+  width: 100%;
 }
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-    .container {
-        padding: 15px;
-    }
+  .container {
+    padding: 15px;
+  }
 
-    .balance-section h1 {
-        font-size: 24px;
-    }
+  .balance-section h1 {
+    font-size: 24px;
+  }
 
-    .balance-card {
-        padding: 20px;
-    }
+  .balance-card {
+    padding: 20px;
+  }
 
-    .balance-amount {
-        font-size: 36px;
-    }
+  .balance-amount {
+    font-size: 36px;
+  }
 
-    .bottom-section {
-        grid-template-columns: 1fr;
-    }
+  .bottom-section {
+    grid-template-columns: 1fr;
+  }
 
-    .transactions-list {
-        max-height: 300px;
-    }
+  .transactions-list {
+    max-height: 300px;
+  }
 
-    .form-section,
-    .transactions-section,
-    .chart-section {
-        padding: 20px;
-    }
+  .form-section,
+  .transactions-section,
+  .chart-section {
+    padding: 20px;
+  }
 
-    .form-section h2,
-    .transactions-section h2,
-    .chart-section h2 {
-        font-size: 16px;
-    }
+  .form-section h2,
+  .transactions-section h2,
+  .chart-section h2 {
+    font-size: 16px;
+  }
 
-    .transaction-item {
-        flex-wrap: wrap;
-    }
+  .transaction-item {
+    flex-wrap: wrap;
+  }
 
-    .btn-delete {
-        margin-left: 0;
-        margin-top: 10px;
-        width: 100%;
-    }
+  .btn-delete {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
+  .container {
+    padding: 10px;
+  }
 
-    .balance-section h1 {
-        font-size: 20px;
-    }
+  .balance-section h1 {
+    font-size: 20px;
+  }
 
-    .balance-amount {
-        font-size: 32px;
-    }
+  .balance-amount {
+    font-size: 32px;
+  }
 
-    .form-section,
-    .transactions-section,
-    .chart-section {
-        padding: 15px;
-    }
+  .form-section,
+  .transactions-section,
+  .chart-section {
+    padding: 15px;
+  }
 
-    .form-group input,
-    .form-group select,
-    .btn-submit {
-        font-size: 16px;
-    }
+  .form-group input,
+  .form-group select,
+  .btn-submit {
+    font-size: 16px;
+  }
 
-    .balance-card {
-        padding: 15px;
-    }
+  .balance-card {
+    padding: 15px;
+  }
 
-    .chart-container {
-        height: 250px;
-    }
+  .chart-container {
+    height: 250px;
+  }
 }
 
 /* Scrollbar Styling */
 .transactions-list::-webkit-scrollbar {
-    width: 6px;
+  width: 6px;
 }
 
 .transactions-list::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 3px;
+  background: #f1f1f1;
+  border-radius: 3px;
 }
 
 .transactions-list::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 3px;
+  background: #888;
+  border-radius: 3px;
 }
 
 .transactions-list::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }
